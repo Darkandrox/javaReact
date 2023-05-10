@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <title></title>
+        <link href="css/Registro.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form action="" method="POST" id="form">
+            <div class="form">
+
+                    <fieldset class="login-box">
+                        <img class="muestra" src="Logo/logo.png" alt="Logo de fazt">
+                        <h1>Iniciar sesion</h1>
+                        
+                            <!-- USERNAME -->
+                                
+                                <label>Nombre de usuario</label>
+                                <input type="text" placeholder="Usuario" name="" id ="nombre" required >  <span class="barra"></span> 
+                                
+                            <!-- PASSWORD -->
+                                
+                                <label>Contraseña</label>
+                                <input type="password" placeholder="Clave" name="" id="contraseña" required > <span class="barra"></span> 
+
+                                <label>Repetir Contraseña</label>
+                                <input type="password" placeholder=" Repetir Clave" name="" id="Repetir_Contraseña" required ><span class="barra"></span> 
+
+                                <label for="correo">Ingrese un Correo</label>
+                                <input type="correo" placeholder="Correo" name="" id="correo" required > <span class="barra"></span> 
+                                
+
+                            
+                            <fieldset class="switch-container">
+                                <a href="#">¿Acepta terminos y condiciones?</a> 
+                                <input type="checkbox" id="switch">
+                                <label for="switch" class="lbl"> </label>
+                            </fieldset>
+
+                            <button type="submit">Registrar</button>
+                            <p class="warnings" id="warnings"></p>
+                            <nav>
+                            <a href="Recuperar.html">¿Olvidaste tu clave?</a>
+                            <a href="Login.html">Ya estas registrado?</a> 
+                            <a href="Index.html">Volver a la pagina principal</a>
+                            </nav>
+                    </fieldset>
+            </div>
+        </form>
+    </body>
+</html>
+
+

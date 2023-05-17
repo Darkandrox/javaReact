@@ -1,0 +1,40 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    background-size: cover;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: auto;
+    min-height: 100vh;
+
+
+}
+.columna{
+    color: #ffffff;
+    background: #000;
+    border-radius: 0px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto ;
+    min-height: 100vh;
+}
+@media (max-width: 600px){
+    .columna{
+        background:black;
+        flex-direction: column;
+    }
+    .columna{
+        margin: 10px 0;
+    }
+    .columna{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}
+  
+  

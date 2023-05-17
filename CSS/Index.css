@@ -1,31 +1,35 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: url(../Logo/Fondo.jpg) no-repeat center top;
-    background-size: cover;
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
-}
-nav{
-    background: black;
+@import url(navegacion.css);
+@import url(diseñoGeneral/tarjetas.css);
+@import url(body.css);
+
+
+
+#inicial{
+    margin: 0px;
+    text-align: center;
     display: flex;
-    justify-content:space-around;
-    border: 4px solid #2d0699;
-    box-sizing: border-box;
-    border-radius: 5px;
-    padding: 20px 20px;
-    border-radius : 20px;
+    position: absolute;top: 15%;
 }
-.Nav-Enlace{
-    display: inline-block;
-    background: rgb(0, 0, 0);
-    color: white;
-    padding: 10px 30px;
-    border: 4px double #2d0699;
-    box-sizing: content-box;
-    width: 10%;
-    border-radius: 5px;
-    
+#secundario{
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    position: absolute;top: 25%;
 }
+#encabezado{
+    text-align: center;
+    display: flex;
+    position: absolute;top: 15%; left: 0%;
+
+}
+
+.columna h1{
+    margin: 0px;
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    position: absolute;top: 40px; left: 40%;
+}
+
 
 

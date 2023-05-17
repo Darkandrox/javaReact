@@ -1,0 +1,33 @@
+@import url(navegacion.css);
+@import url(body.css);
+@import url(diseñoGeneral/tarjetas.css);
+h1{
+    margin: 0px;
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    position: absolute;top: 40px; left: 30%;
+
+}
+main{
+    margin: 0px;
+    text-align: center;
+
+    display: flex;
+    position: absolute;top: 15%;
+    width: 100%;
+}
+
+p{
+    margin: 0px;
+    text-align: center;
+    font-size: 100%;
+    display: flex;
+    position: absolute;top: 15%;
+}
+
+.container-wrapper-genially{
+margin-top: 15%;
+width: 10px;
+height: 10px;
+}

@@ -1,0 +1,17 @@
+@import url(body.css);
+@import url(navegacion.css);
+@import url(diseñoGeneral/tarjetasFamosos.css);
+
+@media (max-width: 1000px){
+    .barraOpciones{
+        background:rgb(0, 0, 0);
+        flex-direction: column;
+        column-gap: 50%;
+        row-gap: 20%;
+        grid-template-columns: repeat(2,19.2% );
+        grid-template.rows: repeat(8,19.2% );
+        justify-items: center;
+        align-items: center;
+        margin-left: 50%;
+    }
+}

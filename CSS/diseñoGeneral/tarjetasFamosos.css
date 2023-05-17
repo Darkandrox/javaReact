@@ -1,0 +1,41 @@
+.barraOpciones{ 
+    display: grid;
+    column-gap: 2%;
+    row-gap: 30%;
+    grid-template-columns: repeat(5,25% );
+    grid-template-rows: repeat(3,20px);
+    justify-items: center;
+    align-items: center;
+    left: 10%;
+    right: auto;
+    
+  }
+  .tarjetaFamosos{
+    font-family: sans-serif;
+    border-color: #fff;
+    margin-top: auto;
+    width:auto;
+
+  }
+
+  h2{
+    color: #000000;
+  }
+  .pie{
+    background: #ffffff;
+    padding: 10px;
+    text-align:center;
+    margin-top: auto;
+  }
+  .pie a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .banner{
+    width:290px;
+    height: 150px;
+    position: relative;
+    
+
+  }

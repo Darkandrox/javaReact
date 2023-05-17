@@ -1,0 +1,34 @@
+.login-box .muestra {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    display:block;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+button {
+    font-family: "roboto";
+    background : #2d0699 ;
+    color: #fff ;
+    font-size: 18px ;
+    border: none;
+    display: block;
+    width: 80%;
+    margin:  10px auto;
+    height: 40px;
+    cursor: pointer;
+}
+.login-box nav{
+    display:grid;
+    }

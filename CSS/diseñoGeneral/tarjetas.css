@@ -1,0 +1,35 @@
+.barraOpciones{ 
+  display: grid;
+  column-gap: 10%;
+  row-gap: 30%;
+  grid-template-columns: repeat(3,45% );
+  grid-template-rows: repeat(1,5%);
+  justify-items: center;
+  align-items: center;
+  margin-top: auto;
+  margin-left: 10%;
+  }
+  .tarjeta{
+    
+    width:auto;
+    margin-top: auto;
+    font-family: sans-serif;
+  }
+
+  .pie{
+    background: #42054a;
+    padding: 10px;
+    text-align:center;
+    margin-top: auto;
+  }
+  .pie a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .banner{
+    width:300px;
+    height: 160px;
+    position: sticky;
+
+  }
